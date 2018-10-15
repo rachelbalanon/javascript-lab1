@@ -8,7 +8,6 @@ let play = prompt(`Hi ${userName}! Would you like to play?`);
 
 if (play === "no" || "No"){
     console.log(`FINE ${userName}. Nobody wanted to play with you anyway.`);
-    break;
 }
 
 else if (play === "yes" || "Yes"){
